@@ -1,0 +1,58 @@
+// accept user sign-up
+        // require...
+        // team name and category
+
+// insert users into some array of voters for distribution later
+        // presumably may need to hold the entries they will have judged
+
+
+// acquire the entry videos and the category they are entered in
+        // can app handle this too?
+        // users categorise their entry and upload video?
+        // we need to then insert these into our structure
+
+
+// form a "super-object" of these from which to form blocks to be pushed out to users
+        // fairly simple array which will eventually hold...
+        // title?, link, category, submitting user?, ranking
+        
+// submission deadline.
+
+// randomly create blocks 
+            // test block meets requirements to be pushed out
+
+
+// push out to users their unique block to judge
+            // can we build something that holds the 6 videos rather than 6 links users have to continually leave the app for???
+
+
+// users will score each video
+            // score necessary, can we only rank? 
+
+
+// based on scores user is presented with an initial ranking to then refine
+            // prompts like "You scored these the same, please state preference."
+            // going to be annoying if all 6 get same rating
+
+
+// finalised block ranking is received
+            // user finalises their ranking in-app, this initiates the send back
+            // could this free up a voter to vote again?
+            // time constraints and participation going to be an issue here.
+
+
+// depending on block size this is then used to generate N comparisons
+            // easy processing here
+            // don't know how to then imbed the python/matlab/whatever
+
+
+// voting cut off
+            // push the match-ups to some service which will generate rankings
+
+
+// steal the ranking algorithm from network of comparisons
+
+
+
+// take ranked output back and give a top 3 per category
+
